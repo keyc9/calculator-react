@@ -3,35 +3,31 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="calculator-body">
+      <div className="calculator-body basic-theme">
         <div className="input-block">
-          <input className="input-field"></input>
+          <input className="basic-theme" id='input-field'></input>
 
         </div>
-        <div className="buttons-section">
-          <div className="numbers">
-            <button className="number-0">0</button>
-            <button className="number-1">1</button>
-            <button className="number-2">2</button>
-            <button className="number-3">3</button>
-            <button className="number-4">4</button>
-            <button className="number-5">5</button>
-            <button className="number-6">6</button>
-            <button className="number-7">7</button>
-            <button className="number-8">8</button>
-            <button className="number-9">9</button>
-            <button className="number-comma">,</button>
-          </div>
-          <div className="math-operators">
-          <button className="btn-plus">+</button>
-          <button className="btn-minus">-</button>
-          <button className="btn-times">X</button>
-          <button className="btn-divide">÷</button>
-          <button className="btn-percent">%</button>
-          <button className="btn-plus_minus">±</button>
-          <button className="btn-equals">=</button>
-          <button className="btn-clear">AC</button>
-          </div>
+        <div className="buttons-section basic-theme">
+            <button className="btn" id='number-0'>0</button>
+            <button className="btn" id='number-1'>1</button>
+            <button className="btn" id='number-2'>2</button>
+            <button className="btn" id='number-3'>3</button>
+            <button className="btn" id='number-4'>4</button>
+            <button className="btn" id='number-5'>5</button>
+            <button className="btn" id='number-6'>6</button>
+            <button className="btn" id='number-7'>7</button>
+            <button className="btn" id='number-8'>8</button>
+            <button className="btn" id='number-9'>9</button>
+            <button className="btn" id='number-comma'>,</button>
+          <button className="btn" id='btn-plus'>+</button>
+          <button className="btn" id='btn-minus'>-</button>
+          <button className="btn" id='btn-times'>X</button>
+          <button className="btn" id='btn-divide'>÷</button>
+          <button className="btn" id='btn-percent'>%</button>
+          <button className="btn" id='btn-plus_minus'>±</button>
+          <button className="btn" id='btn-equals'>=</button>
+          <button className="btn" id='btn-clear'>AC</button>
         </div>
       </div>
     </div>

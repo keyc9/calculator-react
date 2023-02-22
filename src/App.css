@@ -1,30 +1,129 @@
-.basic-theme
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-size: 1rem;
+}
+
+/*! Basic style  */
+.basic-theme {
+  
+}
 
 .App {
   text-align: center;
 }
-.calculator-body
-.input-block
-.input-field
-.buttons-section
-.numbers
-.number-0
-.number-1
-.number-2
-.number-3
-.number-4
-.number-5
-.number-6
-.number-7
-.number-8
-.number-9
-.number-comma
-.math-operators
-.btn-plus
-.btn-minus
-.btn-times
-.btn-divide
-.btn-percent
-.btn-plus_minus
-.btn-equals
-.btn-clear {}
+
+.calculator-body {
+  box-sizing: border-box;
+  margin: 30px auto 0 auto;
+  width: 500px;
+}
+.input-block {
+  margin: 0 10px 15px 10px;
+}
+
+#input-field {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  grid-area: input-block;
+}
+.buttons-section {
+  display: grid;
+  grid-template-areas: 
+  "btn-clear btn-plus_minus btn-percent btn-divide"
+  "number-7 number-8 number-9 btn-times"
+  "number-4 number-5 number-6 btn-minus"
+  "number-1 number-2 number-3 btn-plus"
+  "number-0 number-0 number-comma btn-equals";
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 34px;
+}
+#number-0 {
+  grid-area: number-0;
+}
+
+#number-1 {
+  grid-area: number-1;
+}
+
+#number-2 {
+  grid-area: number-2;
+}
+
+#number-3 {
+  grid-area: number-3;
+}
+
+#number-4 {
+  grid-area: number-4;
+}
+
+#number-5 {
+  grid-area: number-5;
+}
+
+#number-6 {
+  grid-area: number-6;
+}
+
+#number-7 {
+  grid-area: number-7;
+}
+
+#number-8 {
+  grid-area: number-8;
+}
+
+#number-9 {
+  grid-area: number-9;
+}
+
+#number-comma {
+  grid-area: number-comma;
+}
+
+#math-operators {
+  grid-area: math-operators;
+}
+
+#btn-plus {
+  grid-area: btn-plus;
+}
+
+#btn-minus {
+  grid-area: btn-minus;
+}
+
+#btn-times {
+  grid-area: btn-times;
+}
+
+#btn-divide {
+  grid-area: btn-divide;
+}
+
+#btn-percent {
+  grid-area: btn-percent;
+}
+
+#btn-plus_minus {
+  grid-area: btn-plus_minus;
+}
+
+#btn-equals {
+  grid-area: btn-equals;
+}
+
+#btn-clear {
+  grid-area: btn-clear;
+}
