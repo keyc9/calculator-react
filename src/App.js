@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <div className="calculator-body">
-        <div className="input-field">
+        <div className="input-block">
+          <input className="input-field"></input>
 
         </div>
         <div className="buttons-section">
